@@ -1,0 +1,40 @@
+G: && cd G:\Projects\PDF2IMG && Venv\Scripts\activate 
+
+python app.py
+
+pyinstaller --onefile --noconsole pdfToImg.py
+
+
+________________________
+C:\Users\user\AppData\Local\Programs\Python\Python37\python.exe -m venv Venv
+
+Venv\Scripts\activate         <<== Activate Venv
+
+Venv\Scripts\deactivate.bat   <<== Deactivate Venv
+
+pip freeze > requirements.txt 
+pip install -r requirements.txt
+
+
+python -m pip install --upgrade pip
+
+pip list
+___________________________________________________
+
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+------------------------------------------------------------------------------------------
+
+
+G: && cd G:\_Anaji\data-entry-form-pysimplegui && Venv\Scripts\activate
+
+
+
+pyinstaller --onefile --noconsole main.py
+
+
+https://github.com/PySimpleGUI/PySimpleGUI/tree/master/DemoPrograms
+
+https://www.pysimplegui.org/en/latest/Screens/
+
